@@ -7,6 +7,6 @@ Not clientside, but the clients can choose to not have the server hosts' setting
 Anything beyond the implemented limits and it would break the game completely, so settle with that.
 [hr][/hr]
 [b]Localization:[/b]
-If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/BetterAutosave]GitHub[/url][/b]
+If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/BrighterLight]GitHub[/url][/b]
 List of localization contributors:
 * None!
