@@ -1,0 +1,12 @@
+Brighter Light - Customize the brightness of the light that emits from every light source (not just torches).
+
+You can also make light darker.
+
+Not clientside, but the clients can choose to not have the server hosts' settings override theirs.
+
+Anything beyond the implemented limits and it would break the game completely, so settle with that.
+[hr][/hr]
+[b]Localization:[/b]
+If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/BetterAutosave]GitHub[/url][/b]
+List of localization contributors:
+* None!
