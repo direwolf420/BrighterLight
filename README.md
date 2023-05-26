@@ -1,4 +1,9 @@
 # Brighter Light
+
+![Icon](https://raw.githubusercontent.com/direwolf420/BrighterLight/main/icon.png)
+
+Steam Workshop link: https://steamcommunity.com/sharedfiles/filedetails/?id=2786193810
+
 Customize the brightness of the light that emits from every light source (not just torches).
 
 You can also make light darker.
