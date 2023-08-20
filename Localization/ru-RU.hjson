@@ -2,34 +2,34 @@ Mods: {
 	BrighterLight: {
 		Configs: {
 			Config: {
-				// DisplayName: Server/Singleplayer Config
+				DisplayName: Настройки сервера и одиночной игры
 
 				Brightness: {
-					// Label: Brightness
-					// Tooltip: Brightness Multiplier
+					Label: Яркость
+					Tooltip: Множитель яркости
 				}
 			}
 
 			MPClientConfig: {
-				// DisplayName: Multiplayer Client Config
-				// Headers.MultiplayerOnly: Multiplayer Only: Change your own brightness here
+				DisplayName: Настройка клиента в многопользовательской игре
+				Headers.MultiplayerOnly: Только для многопользовательской игры (на сервере)
 
 				Brightness: {
-					// Label: "{$Configs.Config.Brightness.Label}"
-					// Tooltip: "{$Configs.Config.Brightness.Tooltip}"
+					Label: "{$Configs.Config.Brightness.Label}"
+					Tooltip: "{$Configs.Config.Brightness.Tooltip}"
 				}
 
 				UseServerSettings: {
-					// Label: Use Server Settings
-					/* Tooltip:
+					Label: Дублировать настройки сервера
+					Tooltip:
 						'''
-						If enabled, '{$Configs.Config.Brightness.Label}' from the server host (via '{$Configs.Config.DisplayName}') will override this one
-						If disabled, '{$Configs.Config.Brightness.Label}' from this config will be applied instead
-						''' */
+						Включено: Будут применены '{$Configs.Config.DisplayName}' (а именно '{$Configs.Config.Brightness.Label}') владельца сервера 
+						Отключено: Будет применена '{$Configs.Config.Brightness.Label}' из настройки выше
+						'''
 				}
 			}
 
-			// Common.AcceptClientChanges: Only the host of this world can change the config! Do so in singleplayer.
+			Common.AcceptClientChanges: Только владелец этого мира может менять настройки! Смените настройки в одиночной игре.
 		}
 	}
 }
