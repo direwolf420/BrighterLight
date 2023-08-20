@@ -1,3 +1,1 @@
-* Updated to 1.4.4 tml
-* Includes new config for multiplayer only which allows clients to independently set their brightness (if they wish to do so, otherwise server settings apply)
-* Now localizable. Read the mod description for more info
+* Added russian localization, thanks GodHybrid!
