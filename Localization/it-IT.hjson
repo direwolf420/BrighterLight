@@ -28,8 +28,6 @@ Mods: {
 						'''
 				}
 			}
-
-			// Common.AcceptClientChanges: Solo il proprietario del mondo può cambiare la configurazione! Fallo in giocatore singolo.
 		}
 	}
 }

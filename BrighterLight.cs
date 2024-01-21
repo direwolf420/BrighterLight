@@ -1,22 +1,15 @@
 using Terraria;
 using Terraria.ID;
-using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace BrighterLight
 {
-	class BrighterLight : Mod
+	public class BrighterLight : Mod
 	{
-		public static LocalizedText AcceptClientChangesText { get; private set; }
 
-		public override void Load()
-		{
-			string category = $"Configs.Common.";
-			AcceptClientChangesText ??= Language.GetOrRegister(this.GetLocalizationKey($"{category}AcceptClientChanges"));
-		}
 	}
 
-	class BLSystem : ModSystem
+	public class BLSystem : ModSystem
 	{
 		public static float GetBrightness()
 		{

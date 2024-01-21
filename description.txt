@@ -9,3 +9,4 @@ Anything beyond the implemented limits and it would break the game completely, s
 Localization: If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/BrighterLight
 List of localization contributors:
 * Russian: GodHybrid
+* Italian: Sea Noodle
