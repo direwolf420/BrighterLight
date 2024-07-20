@@ -2,30 +2,30 @@ Mods: {
 	BrighterLight: {
 		Configs: {
 			Config: {
-				// DisplayName: Server/Singleplayer Config
+				DisplayName: Server/Singleplayer Konfiguration
 
 				Brightness: {
-					// Label: Brightness
-					// Tooltip: Brightness Multiplier
+					Label: Helligkeit
+					Tooltip: Helligkeitsmultiplikator
 				}
 			}
 
 			MPClientConfig: {
-				// DisplayName: Multiplayer Client Config
-				// Headers.MultiplayerOnly: Multiplayer Only: Change your own brightness here
+				DisplayName: Multiplayer Client Konfiguration
+				Headers.MultiplayerOnly: Nur Multiplayer: Ändere hier deine eigene Helligkeit
 
 				Brightness: {
-					// Label: "{$Configs.Config.Brightness.Label}"
-					// Tooltip: "{$Configs.Config.Brightness.Tooltip}"
+					Label: "{$Configs.Config.Brightness.Label}"
+					Tooltip: "{$Configs.Config.Brightness.Tooltip}"
 				}
 
 				UseServerSettings: {
-					// Label: Use Server Settings
-					/* Tooltip:
+					Label: Verwende Server Einstellungen
+					Tooltip:
 						'''
-						If enabled, '{$Configs.Config.Brightness.Label}' from the server host (via '{$Configs.Config.DisplayName}') will override this one
-						If disabled, '{$Configs.Config.Brightness.Label}' from this config will be applied instead
-						''' */
+						Wenn aktiviert, überschreibt '{$Configs.Config.Brightness.Label}' vom Server (via '{$Configs.Config.DisplayName}') diese Einstellung
+						Wenn deaktiviert, wird '{$Configs.Config.Brightness.Label}' aus dieser Konfiguration angewendet
+						'''
 				}
 			}
 		}
