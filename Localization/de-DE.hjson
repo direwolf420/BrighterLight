@@ -23,7 +23,7 @@ Mods: {
 					Label: Verwende Server Einstellungen
 					Tooltip:
 						'''
-						Wenn aktiviert, überschreibt '{$Configs.Config.Brightness.Label}' vom Server (via '{$Configs.Config.DisplayName}') diese Einstellung
+						Wenn aktiviert, wird '{$Configs.Config.Brightness.Label}' vom Server (via '{$Configs.Config.DisplayName}') überschrieben
 						Wenn deaktiviert, wird '{$Configs.Config.Brightness.Label}' aus dieser Konfiguration angewendet
 						'''
 				}

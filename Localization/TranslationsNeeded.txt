@@ -1,5 +1,5 @@
 en-US, 7/7, 100%, missing 0
-de-DE, 0/7, 0%, missing 7
+de-DE, 7/7, 100%, missing 0
 it-IT, 7/7, 100%, missing 0
 fr-FR, 0/7, 0%, missing 7
 es-ES, 0/7, 0%, missing 7
